@@ -115,6 +115,14 @@ Image path
 Image captured and saved as image_3_20250615_181200.jpg
 Timestamp: 2025-06-15 18:12:00, Weight: 12.45 grams
 
+💾 What Gets Saved
+
+| File               | Description                                                       |
+| ------------------ | ----------------------------------------------------------------- |
+| `Arecanut_images/` | Captured images saved here as `image_<count>_<timestamp>.jpg`     |
+| `weight_data.xlsx` | Excel sheet with 3 columns: Timestamp, Weight (grams), Image Path |
+
+
 Notes
 
 Place a known weight for calibration at the beginning
