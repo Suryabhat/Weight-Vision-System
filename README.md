@@ -46,10 +46,13 @@ A Raspberry Pi-based system for capturing images and measuring weights using the
 You can change the GPIO pins in the code if needed.
 
 🧰 Software Requirements
+
 🐍 Python Version
+
 Make sure you are using Python 3.7+
 
 📦 Required Libraries
+
 Install all required libraries using:
 sudo apt update
 sudo apt install -y python3-pip python3-opencv python3-picamera2 python3-openpyxl
