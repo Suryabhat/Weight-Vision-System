@@ -55,7 +55,9 @@ Make sure you are using Python 3.7+
 
 Install all required libraries using:
 sudo apt update
+
 sudo apt install -y python3-pip python3-opencv python3-picamera2 python3-openpyxl
+
 pip3 install RPi.GPIO
 
 If using a custom hx711.py file (your own driver for HX711), place it in the same directory as the main script.
