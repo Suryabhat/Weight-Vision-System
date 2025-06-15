@@ -54,6 +54,7 @@ Make sure you are using Python 3.7+
 📦 Required Libraries
 
 Install all required libraries using:
+
 sudo apt update
 
 sudo apt install -y python3-pip python3-opencv python3-picamera2 python3-openpyxl
@@ -65,7 +66,9 @@ If using a custom hx711.py file (your own driver for HX711), place it in the sam
 🧪 First-Time Setup Steps
 
 1. Enable the Camera
-On Raspberry Pi, run: sudo raspi-config
+On Raspberry Pi, run:
+
+sudo raspi-config
 
 Go to Interface Options > Camera > Enable
 
@@ -73,6 +76,7 @@ Reboot the Pi: sudo reboot
 
 2. Test the PiCamera
 Try this test script:
+
 from picamera2 import Picamera2
 picam2 = Picamera2()
 picam2.start_preview()
@@ -81,6 +85,7 @@ picam2.capture_file("test.jpg")
 If test.jpg is saved, your camera is working.
 
 3. Calibrate the HX711
+   
 When running the script for the first time, it will prompt: Put known weight on the scale and then press Enter:
 
 Place your known weight on the load cell (e.g., 100g)
@@ -90,6 +95,7 @@ Enter the value 100 and press Enter
 This calculates the scale ratio used in all further measurements
 
 Controls:
+
 Press SPACEBAR to capture an image and measure weight
 
 Press Q to quit the application
