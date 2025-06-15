@@ -116,13 +116,17 @@ Image captured and saved as image_3_20250615_181200.jpg
 Timestamp: 2025-06-15 18:12:00, Weight: 12.45 grams
 
 Notes
+
 Place a known weight for calibration at the beginning
+
 Calibrate carefully to ensure accuracy
 
 📜 License
+
 This project is licensed under the MIT License.
 
 🤝 Contributing
+
 Pull requests are welcome. For major changes, open an issue first.
 
 © 2025 Surya Narayana Bhat
